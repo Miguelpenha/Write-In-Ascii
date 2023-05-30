@@ -10,7 +10,7 @@ function Home() {
 
 10 10
 
-73 32 97 109 32 77 105 103 117 101 108 44 32 97 110 100 32 105 32 97 109 32 112 114 111 103 114 97 109 109 101 114`)
+73 32 97 109 32 77 105 103 117 101 108 44 32 97 110 100 32 105 32 97 109 32 97 32 112 114 111 103 114 97 109 109 101 114`)
     const textRef = useRef<HTMLPreElement>(null)
     const { handleCopyText, handleCopyASCII } = useHandleCopy(textRef, ascii)
 
