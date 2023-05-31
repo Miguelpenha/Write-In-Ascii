@@ -14,7 +14,15 @@ function Home() {
 
     return <>
         <Head>
-            <title>Escreva em ASCII</title>
+            <title>Write in ASCII</title>
+            <meta name="twitter:site" content="@MglPenha"/>
+            <meta name="twitter:creator" content="@MglPenha"/>
+            <meta property="og:title" content="Write in ASCII"/>
+            <meta name="description" content="Escreva em ASCII"/>
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta property="og:description" content="Escreva em ASCII"/>
+            <meta property="og:url" content="https://write-in-ascii.vercel.app"/>
+            <meta property="og:image" content="https://write-in-ascii.vercel.app/img/thumbnail.png"/>
         </Head>
         <Container>
             <Title>Escreva em ASCII</Title>
