@@ -7,7 +7,21 @@ export default createGlobalStyle`
         scrollbar-width: thin;
         box-sizing: border-box;
         scroll-behavior: smooth;
+        scrollbar-color: #efefef #0e0e0e;
         font-family: 'Inconsolata', monospace;
+        
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0e0e0e;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 16px;
+            background-color: #efefef;
+        }
     }
 
     body {
