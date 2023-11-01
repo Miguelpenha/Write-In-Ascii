@@ -1,0 +1,3 @@
+const blurData = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8LwkAAf0BChx+7M4AAAAASUVORK5CYII='
+
+export default blurData
