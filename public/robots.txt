@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://write-in-ascii.vercel.app/sitemap.xml
