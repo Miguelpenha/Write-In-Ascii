@@ -21,6 +21,7 @@ function Home() {
             <meta name="description" content="Escreva em ASCII"/>
             <meta name="twitter:card" content="summary_large_image"/>
             <meta property="og:description" content="Escreva em ASCII"/>
+            <link rel="canonical" href="https://write-in-ascii.vercel.app"/>
             <meta property="og:url" content="https://write-in-ascii.vercel.app"/>
             <meta property="og:image" content="https://write-in-ascii.vercel.app/img/thumbnail.png"/>
         </Head>
