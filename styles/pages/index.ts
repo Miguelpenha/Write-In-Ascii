@@ -44,13 +44,13 @@ export const Textarea = styled.textarea`
     transition-timing-function: linear;
     box-shadow: #efefef 0px 2px 8px -1px;
 
-    :focus {
+    &:focus {
         outline: none;
         border-radius: 5px;
         box-shadow: #efefef 0px 2px 16px -1px;
     }
 
-    ::placeholder {
+    &::placeholder {
         color: #efefef;
     }
 `

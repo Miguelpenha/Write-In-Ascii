@@ -18,7 +18,7 @@ export const ImageContainer = styled(Link)`
     transition-duration: 0.2s;
     transition-timing-function: linear;
 
-    :hover {
+    &:hover {
         transform: scale(1);
     }
 

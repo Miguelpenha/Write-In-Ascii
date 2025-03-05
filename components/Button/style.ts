@@ -16,7 +16,7 @@ export const Container = styled.button`
     transition-timing-function: linear;
     box-shadow: #efefef 0px 2px 8px 1px;
     
-    :hover {
+    &:hover {
         transform: scale(1);
         background-color: #efefef;
         box-shadow: #efefef 0px 2px 8px 4px;
