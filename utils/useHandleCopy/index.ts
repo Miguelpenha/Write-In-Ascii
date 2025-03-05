@@ -2,7 +2,7 @@ import { RefObject } from 'react'
 import useText from './useText'
 import handleCopy from './handleCopy'
 
-function useHandleCopy(textRef: RefObject<HTMLPreElement>, ascii: string) {
+function useHandleCopy(textRef: RefObject<HTMLPreElement | null>, ascii: string) {
     const text = useText(textRef)
 
     return {

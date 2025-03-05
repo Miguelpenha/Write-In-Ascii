@@ -1,6 +1,6 @@
 import { RefObject, useEffect, useState } from 'react'
 
-function useText(textRef: RefObject<HTMLPreElement>) {
+function useText(textRef: RefObject<HTMLPreElement | null>) {
     const [text, setText] = useState('')
 
     useEffect(() => {
