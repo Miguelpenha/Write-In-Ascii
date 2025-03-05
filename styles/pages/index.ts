@@ -28,7 +28,8 @@ export const Subtitle = styled.h3`
     }
 
     @media screen and (max-width: 900px) {
-        font-size: 1.5em;
+        width: 70%;
+        font-size: 1.2em;
     }
 `
 
