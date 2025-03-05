@@ -26,7 +26,7 @@ function Home() {
             <meta property="og:image" content="https://write-in-ascii.vercel.app/img/thumbnail.png"/>
         </Head>
         <Container>
-            <Title>Escreva em ASCII</Title>
+            <Title>Write in ASCII</Title>
             <Subtitle>This project is inspired by the film "<a href="https://www.google.com/search?q=film+the+martian" target="_blank">The Martian &#x1F331;</a>"</Subtitle>
             <Texts>
                 <Textarea
@@ -34,14 +34,14 @@ function Home() {
                     id="text"
                     name="text"
                     defaultValue={ascii}
-                    placeholder="Digite seu ASCII: "
+                    placeholder="Write you ASCII: "
                     onChange={ev => setAscii(ev.target.value)}
                 />
                 <Text ref={textRef} dangerouslySetInnerHTML={{ __html: convertASCII(ascii) }}/>
             </Texts>
             <Buttons>
-                <ButtonCopy title="Copiar ASCII" handleCopy={handleCopyASCII}/>
-                <ButtonCopy title="Copiar Texto" handleCopy={handleCopyText}/>
+                <ButtonCopy title="Copy ASCII" handleCopy={handleCopyASCII}/>
+                <ButtonCopy title="Copy Text" handleCopy={handleCopyText}/>
             </Buttons>
             <Gallery/>
         </Container>
