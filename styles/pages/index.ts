@@ -10,7 +10,22 @@ export const Title = styled.h1`
     font-size: 2.2em;
     align-self: center;
     text-align: center;
+    margin-bottom: 5vh;
+
+    @media screen and (max-width: 900px) {
+        font-size: 1.5em;
+    }
+`
+
+export const Subtitle = styled.h3`
+    font-size: 1.5em;
+    align-self: center;
+    text-align: center;
     margin-bottom: 10vh;
+
+    a {
+        color: #efefef;
+    }
 
     @media screen and (max-width: 900px) {
         font-size: 1.5em;

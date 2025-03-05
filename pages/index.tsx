@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import asciiDefault from '../utils/asciiDefault'
 import useHandleCopy from '../utils/useHandleCopy'
 import Head from 'next/head'
-import { Container, Title, Texts, Textarea, Text, Buttons } from '../styles/pages'
+import { Container, Title, Subtitle, Texts, Textarea, Text, Buttons } from '../styles/pages'
 import convertASCII from '../utils/convertASCII'
 import ButtonCopy from '../components/ButtonCopy'
 import Gallery from '../components/Gallery'
@@ -27,6 +27,7 @@ function Home() {
         </Head>
         <Container>
             <Title>Escreva em ASCII</Title>
+            <Subtitle>This project is inspired by the film "<a href="https://www.google.com/search?q=film+the+martian" target="_blank">The Martian &#x1F331;</a>"</Subtitle>
             <Texts>
                 <Textarea
                     rows={10}
